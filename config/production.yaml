@@ -2,3 +2,6 @@ url: 'http://crowdvert-uptime.herokuapp.com'
 
 mongodb:
   connectionString:  mongodb://heroku:IgPVJYRmCritxs4miREFrFrpJ6HIx6XGZ726_Q58kLXZvZewrweip1VVJaOkgydaeWycolWonTblytpHeUTA4A@kahana.mongohq.com:10000/app27059191
+
+monitor:
+  apiUrl:                 http://crowdvert-uptime.herokuapp.com/api # must be accessible without a proxy
